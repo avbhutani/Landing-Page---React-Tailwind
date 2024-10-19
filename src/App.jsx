@@ -4,6 +4,9 @@ import video1 from './assets/video1.mp4'
 import video2 from './assets/video2.mp4'
 import FeatureSection from "./components/FeatureSection";
 import WorkflowSection from "./components/WorkflowSection";
+import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -14,6 +17,9 @@ export default function App() {
       <HeroSection />
       <FeatureSection />
       <WorkflowSection />
+      <Pricing />
+      <Testimonials />
+      <Footer />
       </div>
     </>
 
